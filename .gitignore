@@ -1,0 +1,7 @@
+_ReSharper.Caches/
+packages/
+.vs/
+UnityContainerFilterAttribute/obj/
+UnityContainerFilterAttribute/bin/
+UnityContainerFilterAttribute.Tests/obj/
+UnityContainerFilterAttribute.Tests/bin/
