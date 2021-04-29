@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: MSTest.TestFramework
+    versions:
+    - 2.1.2
+    - 2.2.1
+    - 2.2.2
+  - dependency-name: Unity.Container
+    versions:
+    - 5.11.10
+  - dependency-name: jQuery
+    versions:
+    - 3.5.1
